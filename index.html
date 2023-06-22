@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul's Midterm</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <form id="myForm">
+        <fieldset id="form1">
+            <h1>Billing Address</h1>
+    
+            <Label for="Fname"> First Name:</Label> <input type ="text"  name="Fname" placeholder="Enter First Name" required/> <br><br>
+    
+            <Label for="Lname"> Last Name:</Label> <input type ="text" id ="Lname" name="Lname"placeholder="Enter Last Name" required /><br><br>
+    
+            <Label for="stradress"> Street Address:</Label><input type ="text" name="stradress" placeholder="Street Address" required/><br><br>
+    
+            <Label for="city"> City:</Label> <input type ="text"  name="city" placeholder="City Name"required/><br><br>
+    
+            <Label for="state"> State:</Label> <select name ="province" required>
+                <option value=""></option>
+                <option value="On">ON</option>
+                <option value="QU">QU</option>
+                <option value="BC">BC</option>
+                <option value="AB">AB</option>
+            </select><br><br>
+    
+            <Label for="zip "> Zip:</Label> <input type ="text"  name="zip" placeholder="Enter Zip Code" required/><br><br>
+            <Label for="phone"> Phone:</Label> <input type ="text"  name="phone" placeholder="(xxx)-xxx-xxxx"required/>
+        </fieldset>
+
+        <fieldset id="form2">
+            <h1>Delivery Address</h1>
+            <input type="checkbox" name="sameAsBilling" />
+            <label for="sameAsBilling">Same as Billing Address</label> <br><br>
+            <Label for="Fname1"> First Name:</Label><input type ="text"  name="Fname1" placeholder="Enter First Name"required/> <br><br>
+    
+            <Label for="Lname1"> Last Name:</Label><input type ="text"  name="Lname1" placeholder="Enter Last Name" required/><br><br>
+    
+            <Label for="stradress1"> Street Address:</Label> <input type ="text" name="stradress1"placeholder="Street Address" required/><br><br>
+    
+            <Label for="city1"> City:</Label><input type ="text"  name="city1" placeholder="City Name"required/><br><br>
+    
+            <Label for="state1"> State:</Label> 
+            <select name ="province1" required>
+                <option value=""></option>
+                <option value="On">ON</option>
+                <option value="QU">QU</option>
+                <option value="BC">BC</option>
+                <option value="AB">AB</option>
+            </select><br><br>
+            <Label for="zip1 "> Zip:</Label><input type ="text"  name="zip1"placeholder="Enter Zip Code" required /><br><br>
+            <Label for="phone1"> Phone:</Label><input type ="text" name="phone1" placeholder="(xxx)-xxx-xxxx"required="number"/><br><br>
+        </fieldset>
+
+        <button type="submit" name="submit" id="submit">Submit</button>
+        <button type="reset" name = "reset">Reset</button>
+    </form>
+    <footer>
+        <small><i>Copyright@copy;Abdul,2023<small></i>
+    </footer>
+</body>
+</html>

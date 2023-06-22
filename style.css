@@ -1,0 +1,36 @@
+form{
+    border: 20px solid green;
+    background-color:white;
+    padding: 20px;
+
+
+
+}
+input:valid{
+    background-color: white;
+    width: 30%;
+    margin: 1px;
+    display: block;
+   
+}
+input:invalid{
+    background-color: pink;
+    border: 2px solid black;
+    width: 30%;
+    margin: 1px;
+    display: block;
+}
+footer{
+    text-align: center;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
